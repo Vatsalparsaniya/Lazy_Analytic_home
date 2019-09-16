@@ -1,7 +1,7 @@
 
 
 # Lazy_Analytic_home
-College DBMS-Project
+<img src="Images/Top.jpg" width=400>
 
 ## Web-site
 
