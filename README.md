@@ -22,6 +22,10 @@ Sensor Data Will updata automaic **(No need To Refresh)** after 2 second.
 
 NodeMCU is an open source IoT platform. It includes firmware which runs on the ESP8266 Wi-Fi SoC from Espressif Systems, and hardware which is based on the ESP-12 module.
 
+### Used Pin
+#### A0(ADC0) : for MQ-2 Sensor Data Input
+#### D5(GPIO14) : for DHT11 Sensor Data Input
+
 ## Used Sensor
 ### DHT11
 <img src="Images/DHT11.jpg" width=250>
