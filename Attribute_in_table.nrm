@@ -1,0 +1,9 @@
+Time,Humidity_sensor_id,Humidity_sensor_data,Humidity_sensor_Status,Location,Sound_sensor_id,Sound_sensor_data,Sound_sensor_status,Temperature_sensor_id,Temperature_sensor_data,Temperature_sensor_status,sensor_id,numberofsensor,Alexa_command,related_query,related_sensor_name,Sensor_Name,Sensor_discription,Sensor_type,power_consumption,command_id,Equipment_id,Equipment_Name,Equipment_status,Equipment_location,Equipment_name,Equipment_Work,Power_consumption,Start_time,End_time,RS.
+
+Time,Humidity_sensor_id -> sensor_id,Humidity_sensor_data,Humidity_sensor_Status,Location
+Time,Sound_sensor_id -> sensor_id,Sound_sensor_data,Sound_sensor_status,Location
+Time,Temperature_sensor_id -> sensor_id,Location,Temperature_sensor_data,Temperature_sensor_status
+sensor_id -> Sensor_Name,Sensor_discription,Sensor_type,numberofsensor,power_consumption
+command_id -> related_query,Alexa_command
+Equipment_id -> Equipment_Name,Equipment_location,Equipment_Work,power_consumption,Equipment_status
+Equipment_id,Start_time -> End_time,RS.
